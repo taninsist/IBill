@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#5000eeff"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <!-- 类型 -->
+        <TextView
+            android:id="@+id/typeT"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="收"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/moneyT"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/typeT"
+            android:text="money" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/descT"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@+id/typeT"
+            android:layout_below="@id/moneyT"
+            android:text="desc" />
+
+        <TextView
+            android:id="@+id/dateT"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="2020-12-10"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
