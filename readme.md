@@ -8,6 +8,7 @@
 - java JDK 16.0.2
 - android studio 2020.3.1
 - gradle 5.4.1
+- Android Gradle Plugin 3.5.2
 
 ### 程序逻辑处理结构
 ```
