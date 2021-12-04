@@ -358,8 +358,8 @@ public class Statistics_bill extends AppCompatActivity {
             if (type == 0) {
                 //是支出
                 payOut += bill.getMoney();
-
-            } else if (type == 1) { countOut -= bill.getMoney();
+                countOut -= bill.getMoney();
+            } else if (type == 1) {
 
                 //是收入
                 incomeOut += bill.getMoney();
